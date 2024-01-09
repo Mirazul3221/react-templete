@@ -14,7 +14,7 @@ const Header = () => {
               <Logo />
               <div className="">
                   <ul className='flex gap-5 font-[3px] items-center'>
-                      <li className='group'><a className='group-hover:border-b border-black duration-300' href="#">Products</a></li>
+                      <li className='group'><a className='group-hover:border-b border-black duration-300' href="/">Products</a></li>
                       <li><a href="/">Startup tools</a></li>
                       <li><a href="/">Featurs</a></li>
                       <li><a href="/">Life support</a></li>
