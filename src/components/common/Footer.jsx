@@ -1,8 +1,12 @@
 import React from 'react'
-
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa6";
+import { FaSquareTwitter } from "react-icons/fa6";
+import { FaYoutubeSquare } from "react-icons/fa";
 const Footer = () => {
-  return (
-      <div className='flex justify-between py-10 bg-gray-200 grid grid-cols-5'>
+    return (
+        <div className="bg-gray-200">
+                  <div className='flex justify-between py-10 grid grid-cols-5'>
           <div className="item">
               <ul>
                   <li className='px-4'><a href="/"><img src="./images/logo.png" alt="" /></a></li>
@@ -69,7 +73,19 @@ Italiano, العربية, Việt, Français, اُردُو</p>
               </div>
               
           </div>
-    </div>
+            </div>
+            <div className="w-10/12 flex justify-between items-center mx-auto">
+                <div className="social">
+                    <ul className='flex gap-2'>
+                        <li className='w-8 h-8 rounded-full border-2 border-black flex justify-center items-center'><a className='hover:text-black text-gray-500 w-fit duration-300' href="/"><FaFacebookSquare size={20} /></a></li>
+                        <li className='w-8 h-8 rounded-full border-2 border-black flex justify-center items-center'><a className='hover:text-black text-gray-500 w-fit duration-300' href="/"><FaLinkedin size={20} /></a></li>
+                        <li className='w-8 h-8 rounded-full border-2 border-black flex justify-center items-center'><a className='hover:text-black text-gray-500 w-fit duration-300' href="/"><FaSquareTwitter size={20} /></a></li>
+                        <li className='w-8 h-8 rounded-full border-2 border-black flex justify-center items-center'><a className='hover:text-black text-gray-500 w-fit duration-300' href="/"><FaYoutubeSquare size={20} /></a></li>
+                    </ul>
+                </div>
+                <p className='py-4 text-md text-gray-400 px-4'>Copyright all reserve By Toriqul Islam</p>
+            </div>
+      </div>
   )
 }
 
