@@ -5,6 +5,7 @@ import Section1 from './components/Section1'
 import Section02 from './components/Section02'
 import Section3 from './components/Section3'
 import Section4 from './components/Section4'
+import Footer from './components/common/Footer'
 
 const LandingPage = () => {
   return (
@@ -15,6 +16,7 @@ const LandingPage = () => {
       <Section02 />
       <Section3 />
       <Section4 />
+      <Footer />
 
     </div>
   )
