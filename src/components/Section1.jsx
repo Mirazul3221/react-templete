@@ -12,7 +12,7 @@ const Section1 = () => {
               <p className='text-gray-700'>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique excepturi dolorum non eum. Nostrum veritatis numquam dolorum doloribus est illum odio obcaecati voluptatem nemo id praesentium recusandae, non reiciendis maxime.
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique excepturi dolorum non eum. Nostrum veritatis numquam dolorum doloribus est illum odio obcaecati voluptatem nemo id praesentium recusandae,              </p>
-              <div className="mt-2"> <a href="#"><Btn btn={"Read More..."} /></a></div>
+              <div className="mt-2"> <a href="/"><Btn btn={"Read More..."} /></a></div>
           </div>
     </div>
   )

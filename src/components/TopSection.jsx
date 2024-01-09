@@ -1,7 +1,6 @@
 import React from 'react'
 import video from "../videos/banner-video.mp4"
 import Btn from './Btn'
-import style from "./common/common.css"
 
 const TopSection = () => {
     return (

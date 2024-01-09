@@ -12,7 +12,7 @@ const Section3 = () => {
               <div className="left md:w-1/2">
                   <h2 className='font-medium text-2xl text-gray-700'>Download New Packages</h2>
                   <h2 className='text-5xl font-bold'>Get real-time assistance with your coding queries</h2>
-                  <div className="mt-4"> <a href="#">
+                  <div className="mt-4"> <a href="/">
                   <Btn btn={'Need Help?'} text='lg' py={"2"} font={"normal"} />
                   </a></div>
                   </div>

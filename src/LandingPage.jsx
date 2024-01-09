@@ -1,6 +1,5 @@
 import React from 'react'
 import Header from './components/common/Header'
-import Btn from './components/Btn'
 import TopSection from './components/TopSection'
 import Section1 from './components/Section1'
 import Section02 from './components/Section02'
