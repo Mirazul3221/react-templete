@@ -9,7 +9,7 @@ const Logo = () => {
   );
 };
 
-const Header = ({ secsion2, secsion3 }) => {
+const Header = ({ secsion2, secsion3, secsion4, form }) => {
   return (
     <div>
       <div className="flex justify-between items-center py-2">
@@ -45,10 +45,24 @@ const Header = ({ secsion2, secsion3 }) => {
               </h2>
             </li>
             <li>
-              <a href="/">Life support</a>
+              <h2
+                className="cursor-pointer"
+                onClick={() => {
+                  scroll(secsion4);
+                }}
+              >
+                Life support
+              </h2>
             </li>
             <li>
-              <a href="/">Our plans</a>
+              <h2
+                className="cursor-pointer"
+                onClick={() => {
+                  scroll(form);
+                }}
+              >
+                Our plans
+              </h2>
             </li>
             <li>
               <a href="/">

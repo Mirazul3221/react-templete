@@ -6,14 +6,16 @@ import Section02 from "./components/Section02";
 import Section3 from "./components/Section3";
 import Section4 from "./components/Section4";
 import Footer from "./components/common/Footer";
-import Buttton from "./components/Buttton";
+import Form from "./components/Form";
 
 const LandingPage = () => {
   const sec2 = useRef();
   const sec3 = useRef();
+  const sec4 = useRef();
+  const form = useRef();
   return (
     <div className="px-20">
-      <Header secsion2={sec2} secsion3={sec3} />
+      <Header secsion2={sec2} secsion3={sec3} secsion4={sec4} form={form} />
 
       <TopSection />
       <Section1 />
@@ -23,14 +25,13 @@ const LandingPage = () => {
       <div className="" ref={sec3}>
         <Section3 />
       </div>
-      <Section4 />
-      <Footer />
-      <div className="flex gap-4">
-        <Buttton btn={"Click Here"} />
-        <Buttton bg={"[#ff00dd]"} color={"white"} btn={"Read More"} />
-        <Buttton bg={"amber-700"} color={"[#00ff44]"} btn={"More Info..."} />
-        <Buttton btn={"More Info..."} />
+      <div ref={sec4}>
+        <Section4 />
       </div>
+      <div ref={form} className="form">
+        <Form />
+      </div>
+      <Footer />
     </div>
   );
 };
