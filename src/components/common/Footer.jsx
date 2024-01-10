@@ -85,6 +85,7 @@ Italiano, العربية, Việt, Français, اُردُو</p>
                 </div>
                 <p className='py-4 text-md text-gray-400 px-4'>Copyright all reserve By Toriqul Islam</p>
             </div>
+           
       </div>
   )
 }
