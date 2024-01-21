@@ -31,3 +31,29 @@
    background: #f1f1f1;
    clip-path: polygon(0% 0%,0% 100%, 100% 0%); 
 }
+
+
+/* //==================================// */
+/* Locomotive style and custom css */
+
+.op-class{
+    opacity: 0;
+    transform: rotate(20deg);
+  }
+  .fadeIn {
+    /* transform: rotate(0deg); */
+    opacity: 1;
+    transition: opacity 4s ;
+  }
+
+  @media screen and (max-width: 600px) and (min-width: 320px) {
+    .op-class{
+      opacity: 0;
+      transform: rotate(0deg);
+    }
+    .fadeIn {
+      /* transform: rotate(0deg); */
+      opacity: 1;
+      transition: opacity 4s ;
+    }
+  }

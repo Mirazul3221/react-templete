@@ -2,22 +2,36 @@ import React from "react";
 
 const Section02 = () => {
   return (
-    <div className="mt-8" id="section2">
-      <h2 className="text-5xl font-bold mt-20 text-center">
+    <div className="mt-4" id="section2">
+      <h2
+        className="md:text-5xl text-2xl font-bold md:mt-20 text-center"
+        data-scroll
+        data-scroll-speed="-2"
+        data-scroll-direction="horizontal"
+      >
         We had agreed, my companion
       </h2>
-      <p className="w-7/12 mx-auto text-center mt-3 mb-6">
+      <p
+        data-scroll
+        data-scroll-speed="2"
+        data-scroll-direction="horizontal"
+        className="md:w-7/12 mx-auto text-center mt-3 mb-6"
+      >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos tempora
         fugit laboriosam quas expedita enim! Sit, delectus debitis soluta
-        nesciunt iste maiores{" "}
+        nesciunt iste maiores
       </p>
-      <div className="grid grid-cols-3 gap-6">
-        <div className="group border">
+      <div className="md:grid grid-cols-3 gap-6">
+        <div
+          className="group border"
+          data-scroll
+          data-scroll-speed="-3"
+          data-scroll-direction="horizontal"
+        >
           <div className="p-4 shadow-gray-300 group-hover:shadow-lg rounded-md">
             <h2 className="text-2xl">1208 illustrations elements</h2>
             <h3>No one know how to start earning in a short time</h3>
             <div className="w-full group-hover:cursor-pointer">
-              {" "}
               <img
                 className=""
                 loading="lazy"
@@ -33,7 +47,12 @@ const Section02 = () => {
             </p>
           </div>
         </div>
-        <div className="group border">
+        <div
+          className="group border"
+          data-scroll
+          data-scroll-speed="-4"
+          data-scroll-direction="horizontal"
+        >
           <div className="p-4 shadow-gray-300 group-hover:shadow-lg rounded-md">
             <h2 className="text-2xl">1208 illustrations elements</h2>
             <h3>No one know how to start earning in a short time</h3>
@@ -54,7 +73,12 @@ const Section02 = () => {
             </p>
           </div>
         </div>
-        <div className="group border">
+        <div
+          className="group border"
+          data-scroll
+          data-scroll-speed="-5"
+          data-scroll-direction="horizontal"
+        >
           <div className="p-4 shadow-gray-300 group-hover:shadow-lg rounded-md">
             <h2 className="text-2xl">1208 illustrations elements</h2>
             <h3>No one know how to start earning in a short time</h3>
@@ -75,7 +99,12 @@ const Section02 = () => {
             </p>
           </div>
         </div>
-        <div className="group border">
+        <div
+          className="group border"
+          data-scroll
+          data-scroll-speed="3"
+          data-scroll-direction="horizontal"
+        >
           <div className="p-4 shadow-gray-300 group-hover:shadow-lg rounded-md">
             <h2 className="text-2xl">1208 illustrations elements</h2>
             <h3>No one know how to start earning in a short time</h3>
@@ -96,7 +125,12 @@ const Section02 = () => {
             </p>
           </div>
         </div>
-        <div className="group border">
+        <div
+          className="group border"
+          data-scroll
+          data-scroll-speed="4"
+          data-scroll-direction="horizontal"
+        >
           <div className="p-4 shadow-gray-300 group-hover:shadow-lg rounded-md">
             <h2 className="text-2xl">1208 illustrations elements</h2>
             <h3>No one know how to start earning in a short time</h3>
@@ -117,12 +151,16 @@ const Section02 = () => {
             </p>
           </div>
         </div>
-        <div className="group border">
+        <div
+          className="group border"
+          data-scroll
+          data-scroll-speed="5"
+          data-scroll-direction="horizontal"
+        >
           <div className="p-4 shadow-gray-300 group-hover:shadow-lg rounded-md">
             <h2 className="text-2xl">1208 illustrations elements</h2>
             <h3>No one know how to start earning in a short time</h3>
             <div className="w-full group-hover:cursor-pointer">
-              {" "}
               <img
                 loading="lazy"
                 className=""
