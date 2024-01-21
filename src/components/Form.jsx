@@ -7,14 +7,14 @@ const Form = () => {
       data-scroll
       data-scroll-class="fadeIn"
       data-scroll-repeat="true"
-      data-scroll-speed="2"
+      data-scroll-speed="1"
       className="op-class md:py-10 py-2 md:flex gap-10 items-center"
     >
       <div className="left md:w-1/2">
         <img
           data-scroll
           data-scroll-repeat="true"
-          data-scroll-speed="2"
+          data-scroll-speed="1"
           data-scroll-direction="horizontal"
           src="./images/form.png"
           alt=""

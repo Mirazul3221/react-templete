@@ -7,7 +7,7 @@ const Section1 = () => {
       <div
         className="left md:w-1/2"
         data-scroll
-        data-scroll-speed="9"
+        data-scroll-speed="1"
         data-scroll-direction="horizontal"
       >
         <img className="md:w-[80%]" src="/images/health.png" alt="" />

@@ -25,7 +25,7 @@ const Section02 = () => {
         <div
           className="group border"
           data-scroll
-          data-scroll-speed="-3"
+          data-scroll-speed="-2"
           data-scroll-direction="horizontal"
         >
           <div className="p-4 shadow-gray-300 group-hover:shadow-lg rounded-md">
@@ -50,7 +50,7 @@ const Section02 = () => {
         <div
           className="group border"
           data-scroll
-          data-scroll-speed="-4"
+          data-scroll-speed="-2"
           data-scroll-direction="horizontal"
         >
           <div className="p-4 shadow-gray-300 group-hover:shadow-lg rounded-md">
@@ -76,7 +76,7 @@ const Section02 = () => {
         <div
           className="group border"
           data-scroll
-          data-scroll-speed="-5"
+          data-scroll-speed="-2"
           data-scroll-direction="horizontal"
         >
           <div className="p-4 shadow-gray-300 group-hover:shadow-lg rounded-md">
@@ -102,7 +102,7 @@ const Section02 = () => {
         <div
           className="group border"
           data-scroll
-          data-scroll-speed="3"
+          data-scroll-speed="2"
           data-scroll-direction="horizontal"
         >
           <div className="p-4 shadow-gray-300 group-hover:shadow-lg rounded-md">
@@ -128,7 +128,7 @@ const Section02 = () => {
         <div
           className="group border"
           data-scroll
-          data-scroll-speed="4"
+          data-scroll-speed="2"
           data-scroll-direction="horizontal"
         >
           <div className="p-4 shadow-gray-300 group-hover:shadow-lg rounded-md">
@@ -154,7 +154,7 @@ const Section02 = () => {
         <div
           className="group border"
           data-scroll
-          data-scroll-speed="5"
+          data-scroll-speed="2"
           data-scroll-direction="horizontal"
         >
           <div className="p-4 shadow-gray-300 group-hover:shadow-lg rounded-md">
