@@ -9,7 +9,7 @@ import Footer from "./components/common/Footer";
 import Form from "./components/Form";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 import "locomotive-scroll/dist/locomotive-scroll.css";
-import About from "./components/common/About";
+// import About from "./components/common/About";
 import ScrollProxyTriger from "./components/ScrollProxyTriger";
 
 const LandingPage = () => {
