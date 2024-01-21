@@ -7,7 +7,7 @@ const TopSection = () => {
     <div className="banner">
       <div className="md:flex h-[100vh] justify-between items-center">
         <div className="left md:w-1/2 pr-8">
-          <h2 className="text-5xl font-bold">
+          <h2 className="md:text-5xl text-2xl font-bold">
             Create Minimal <br /> Templates for Notion
           </h2>
           <p className="mt-4 mb-2 text-2xl text-gray-700">
