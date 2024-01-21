@@ -14,7 +14,7 @@ const Footer = () => {
     >
       <div className=" banner-revers"></div>
       <div className="bg-[#f1f1f1]">
-        <div className="justify-between md:py-10 py-4 md:grid grid-cols-5">
+        <div className="justify-between md:py-6 py-4 md:grid grid-cols-5">
           <div className="item">
             <ul>
               <li className="px-4">
@@ -173,7 +173,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="w-10/12 md:flex justify-between items-center mx-auto">
+        <div className="w-10/12 md:flex justify-between items-center py-6 mx-auto">
           <div className="social">
             <ul className="flex gap-2">
               <li className="w-8 h-8 rounded-full border-2 border-black flex justify-center items-center">
